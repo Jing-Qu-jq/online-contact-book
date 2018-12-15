@@ -1,0 +1,22 @@
+﻿@model IEnumerable<OnlineContactBook.Models.Contact>
+
+@{
+    ViewBag.Title = "Your Contact Book";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<div class="contact-card-container">
+    @foreach (var contact in ViewBag.Contacts)
+    {
+        <div class="contact-card bg-periwinkle">
+            <img src=@contact.Photo
+                 height=150
+                 width=150 />
+            <div class="title"><b>@contact.Name</b></div>
+            <div>Phone: @contact.Phone</div>
+            <div>Email: @contact.Email</div>
+            <div>Note: @contact.Note</div>
+        </div>
+    }
+</div>
