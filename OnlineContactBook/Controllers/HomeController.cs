@@ -16,8 +16,6 @@ namespace OnlineContactBook.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
             Models.Contact contact1 = new Models.Contact();
             contact1.Photo = "https://image.flaticon.com/icons/png/512/190/190676.png";
             contact1.Name = "Lily";
@@ -74,9 +72,9 @@ namespace OnlineContactBook.Controllers
         }
 
 
-        public ActionResult Login()
+        public ActionResult Signin()
         {
-            ViewBag.Message = "Login page.";
+            ViewBag.Message = "Sign in or sign up";
 
             return View();
         }

@@ -3,28 +3,58 @@
 }
 
 <div class="hero-img">
-    <p style="font-size:100px; font-weight: bold; color:white; text-align: center;">Welcome</p>
-    <p><a href="https://asp.net" class="btn btn-transparent btn-lg">Learn more &raquo;</a></p>
+    <p>Welcome</p>
+    @Html.ActionLink("Sign in or Sign up >>", "Signin", "Home", new object { }, new { @class = "btn btn-transparent btn-lg" })
 </div>
 
-<div class="row">
+<div class="row margin-vertical-sm">
     <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <h4>24/7 ACCESS</h4>
+        <p class="margin-vertical-xs">Access & edit your contacts from any device, anywhere, 24/7. This is a 100% web-based cloud system.</p>
+        @Html.ActionLink("Learn more >>", "Contact", "Home", new object { }, new { @class = "btn btn-default" })
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h4>DETAILED CONTACT NOTES</h4>
+        <p class="margin-vertical-xs">You and your team members can use the Contact History to make detailed notes about when anyone last contacted someone in your Address Book.</p>
+        @Html.ActionLink("Learn more >>", "Contact", "Home", new object { }, new { @class = "btn btn-default" })
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h4>FIND CONTACTS FAST</h4>
+        <p class="margin-vertical-xs">You can easily find people in your contact book — search for any text in your address book (including in your free-text notes about people), sort by first or last name, or even sort contacts with tags. Never lose another contact!</p>
     </div>
 </div>
+
+<hr />
+
+<div class="display-flex bg-light-gray margin-vertical-sm">
+    <img width=50% src="https://www.lifewire.com/thmb/WX0trNDxky5QLRRGZ2QVTZ1TBr0=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-647510470-5af03f71a474be0036551fa3.jpg" />
+    <div class="margin-horizontal-sm">
+        <h3>An online contact book, at your service</h3>
+        <p>
+            It’s simple. This is a complete online solution to create and manage your contacts. Define contact categories such as organizations, emails, job titles, website, and other custom fields, thus, making it a great, flexible solution for sales teams as their CRM, HR for managing employees contact info, or purchases to manage providers data.
+        </p>
+        <p>
+            However, you will receive much more than a contact management solution: create workflows, projects, web shared calendars, and document management — all in a single cloud platform.
+        </p>
+        <p>@Html.ActionLink("Join us >>", "Signin", "Home", new object { }, new { @class = "btn btn-transparent" })</p>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-3">
+        <img width=100% height=260 src="https://previews.123rf.com/images/apinan/apinan1504/apinan150400013/39095463-business-email-marketing-content-connection-on-people-background.jpg" />
+        <p class="margin-vertical-xs">Easy to use contact book:<br />The learning time is only few minutes.</p>
+    </div>
+    <div class="col-md-6">
+        <img width=100% height=260 src="https://image.freepik.com/free-vector/email-marketing-business-banner_1325-133.jpg" />
+        <p class="margin-vertical-xs">Group wise view of contact book:<br />Your contact book can be viewed in different categories or groups with few clicks.</p>
+    </div>
+    <div class="col-md-3">
+        <img width=100% height=260 src="https://previews.123rf.com/images/apinan/apinan1506/apinan150600025/41676797-business-email-marketing-and-digital-content-background-social-network-communication-web-banner.jpg" />
+        <p class="margin-vertical-xs">Safe and protected</p>
+    </div>
+</div>
+
+<hr />

@@ -1,6 +1,6 @@
 ﻿body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -25,7 +25,8 @@ textarea {
 
 .bg-light-gray {
     background: rgba( 45, 54, 62, 0.6);
-    color: white !important;
+    color: white;
+    border-width: 0;
 }
 
     .bg-light-gray .navbar-brand {
@@ -42,16 +43,27 @@ textarea {
             background-color: gray;
         }
 
+        .brand-icon {
+            margin-top: 5px;
+            margin-right: 20px;
+        }
 .hero-img {
     background-image: url(https://d3583ivmhhw2le.cloudfront.net/images/uploads/blog/2015-Hero-CleanWater.jpg);
     background-size: cover;
-    height: 500px;
+    height: 450px;
     text-align: center;
 }
 
+    .hero-img p {
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+
 .contact-card-container {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .contact-card {
@@ -72,9 +84,14 @@ textarea {
         margin-top: 10px;
     }
 
-.bg-primary {
+.btn {
+    border: 1px solid;
+    border-radius: 50px;
 }
 
+.btn-lg {
+    margin-top: 200px;
+}
 .btn-transparent {
     background: rgba(240, 255, 240, 0);
     color: white;
@@ -87,3 +104,22 @@ textarea {
         color: white;
     }
 
+.display-flex {
+    display:flex;
+    align-items: center;
+}
+
+.margin-vertical-sm {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.margin-vertical-xs {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.margin-horizontal-sm {
+    margin-left: 14px;
+    margin-right: 14px;
+}
