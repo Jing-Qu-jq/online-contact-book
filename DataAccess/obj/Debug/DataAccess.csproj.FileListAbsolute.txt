@@ -1,0 +1,6 @@
+C:\Users\jequ\source\repos\ISEM551\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\jequ\source\repos\ISEM551\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jequ\source\repos\ISEM551\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\jequ\source\repos\ISEM551\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\jequ\source\repos\ISEM551\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\jequ\source\repos\ISEM551\DataAccess\obj\Debug\DataAccess.pdb

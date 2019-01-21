@@ -158,3 +158,9 @@ C:\Users\jequ\source\repos\ISEM551\OnlineContactBook\obj\Debug\OnlineContactBook
 C:\Users\jequ\source\repos\ISEM551\OnlineContactBook\obj\Debug\OnlineContactBook.csproj.CopyComplete
 C:\Users\jequ\source\repos\ISEM551\OnlineContactBook\obj\Debug\OnlineContactBook.dll
 C:\Users\jequ\source\repos\ISEM551\OnlineContactBook\obj\Debug\OnlineContactBook.pdb
+C:\Users\jequ\source\repos\ISEM551\OnlineContactBook\bin\BusinessLayer.dll
+C:\Users\jequ\source\repos\ISEM551\OnlineContactBook\bin\Models.dll
+C:\Users\jequ\source\repos\ISEM551\OnlineContactBook\bin\DataAccess.dll
+C:\Users\jequ\source\repos\ISEM551\OnlineContactBook\bin\BusinessLayer.pdb
+C:\Users\jequ\source\repos\ISEM551\OnlineContactBook\bin\Models.pdb
+C:\Users\jequ\source\repos\ISEM551\OnlineContactBook\bin\DataAccess.pdb

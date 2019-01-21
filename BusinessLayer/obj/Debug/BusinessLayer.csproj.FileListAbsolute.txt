@@ -1,0 +1,11 @@
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\bin\Debug\DataAccess.dll
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\bin\Debug\Models.dll
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\bin\Debug\DataAccess.pdb
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\bin\Debug\Models.pdb
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\jequ\source\repos\ISEM551\BusinessLayer\obj\Debug\BusinessLayer.pdb
